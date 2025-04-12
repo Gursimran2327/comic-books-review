@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getComics } from '../lib/sanity';
+
+const comics = await getComics();
+---
+
+<Layout title="Comic Book Reviews">
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8">Comic Book Reviews</h1>
+    
+    <!-- Search -->
+    <div class="mb-8">
+      <input 
+        type="text" 
+        id="search"
+        placeholder="Search reviews..."
+        class="w-full p-2 border border-gray-300 rounded-lg"
+      />
+    </div>
+
+    <!-- Comics Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {comics.map((comic) => (
+        <a href={`/comic/${comic.slug.current}`} class="block comic-card">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            <div class="p-4">
+              <h2 class="text-xl font-semibold mb-2">{comic.title}</h2>
+              <div class="flex items-center mb-2">
+                <span class="text-yellow-500">★</span>
+                <span class="ml-1">{comic.rating}/5</span>
+              </div>
+              <p class="text-gray-600 line-clamp-3">{comic.summary}</p>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<script>
+  const searchInput = document.getElementById('search') as HTMLInputElement;
+  const comicCards = document.querySelectorAll('.comic-card');
+
+  searchInput.addEventListener('input', (e) => {
+    const searchTerm = (e.target as HTMLInputElement).value.toLowerCase();
+    
+    comicCards.forEach((card) => {
+      const title = card.querySelector('h2')?.textContent?.toLowerCase() || '';
+      const summary = card.querySelector('p')?.textContent?.toLowerCase() || '';
+      
+      if (title.includes(searchTerm) || summary.includes(searchTerm)) {
+        card.classList.remove('hidden');
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+  });
+</script>

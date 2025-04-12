@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <nav class="bg-white shadow-md">
+      <div class="container mx-auto px-4 py-4">
+        <a href="/" class="text-2xl font-bold text-gray-800">Comic Book Reviews</a>
+      </div>
+    </nav>
+    
+    <slot />
+    
+    <footer class="bg-white shadow-md mt-8">
+      <div class="container mx-auto px-4 py-4 text-center text-gray-600">
+        © 2024 Comic Book Reviews. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>

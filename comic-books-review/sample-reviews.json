@@ -1,0 +1,74 @@
+{
+  "reviews": [
+    {
+      "title": "Watchmen",
+      "summary": "Set in an alternate 1985 America, Watchmen follows a group of costumed vigilantes as they investigate a conspiracy that could change the course of history.",
+      "review": "Alan Moore's masterpiece redefines the superhero genre with its complex characters and intricate plotting. The story's deconstruction of superhero mythology, combined with Dave Gibbons' detailed artwork, creates a compelling narrative that examines power, morality, and human nature. The intricate layering of symbolism and parallel storytelling makes this a must-read for any serious comic book fan.",
+      "rating": 5,
+      "publishedAt": "2024-01-15"
+    },
+    {
+      "title": "The Sandman: Preludes & Nocturnes",
+      "summary": "After being held captive for 70 years, Dream of the Endless must reclaim his power and rebuild his fallen realm.",
+      "review": "Neil Gaiman's dark fantasy masterwork begins with this compelling volume. The story seamlessly blends mythology, horror, and fantasy elements while establishing a rich universe. Sam Kieth's artwork perfectly captures the dreamlike quality of the narrative, though some early installments show the series finding its footing. The depth of storytelling and character development sets a new standard for graphic storytelling.",
+      "rating": 4.5,
+      "publishedAt": "2024-01-18"
+    },
+    {
+      "title": "Saga, Volume 1",
+      "summary": "Star-crossed lovers from warring alien races must protect their newborn child while being hunted across the galaxy.",
+      "review": "Brian K. Vaughan and Fiona Staples create a stunning space opera that's both intimate and epic in scope. The artwork is gorgeous, with creative character designs and vivid world-building. While the mature content might not be for everyone, the story's heart lies in its exploration of family, war, and love. The narrative voice, provided by the couple's daughter, adds a unique perspective to this modern classic.",
+      "rating": 5,
+      "publishedAt": "2024-01-20"
+    },
+    {
+      "title": "Batman: The Long Halloween",
+      "summary": "Batman works with Jim Gordon and Harvey Dent to uncover the identity of a serial killer who strikes on holidays.",
+      "review": "Jeph Loeb and Tim Sale craft a noir-inspired mystery that stands as one of the greatest Batman stories ever told. The moody artwork and compelling mystery keep readers guessing until the end. The transformation of Harvey Dent is particularly well-handled, and the exploration of Gotham's crime families adds depth to the Batman mythology. A perfect blend of detective story and superhero comic.",
+      "rating": 4.8,
+      "publishedAt": "2024-01-22"
+    },
+    {
+      "title": "Maus",
+      "summary": "Art Spiegelman tells his father's story of surviving the Holocaust, depicting Jews as mice and Nazis as cats.",
+      "review": "This Pulitzer Prize-winning graphic novel proves the medium's ability to handle serious historical subjects. Spiegelman's choice to use animals as characters adds layers of meaning while making the horror more digestible. The parallel narrative of his relationship with his father adds personal depth to the historical account. A powerful testament to survival and the impact of generational trauma.",
+      "rating": 5,
+      "publishedAt": "2024-01-25"
+    },
+    {
+      "title": "Y: The Last Man, Book One",
+      "summary": "A mysterious plague kills every male mammal on Earth except Yorick Brown and his pet monkey.",
+      "review": "Brian K. Vaughan's post-apocalyptic tale explores gender, society, and survival with intelligence and humor. The premise could have been handled sensationally, but instead becomes a thoughtful examination of gender roles and social structures. Pia Guerra's clean, realistic artwork grounds the fantastic premise in reality. While some early political elements feel dated, the human story remains compelling.",
+      "rating": 4.3,
+      "publishedAt": "2024-01-28"
+    },
+    {
+      "title": "Ms. Marvel: No Normal",
+      "summary": "Kamala Khan, a Pakistani-American teenager from Jersey City, suddenly gains shapeshifting powers.",
+      "review": "G. Willow Wilson creates a charming and relatable new superhero for the modern age. Kamala's struggle to balance her cultural identity, family expectations, and superhero responsibilities resonates deeply. Adrian Alphona's artwork captures both the mundane and fantastic elements of Kamala's world perfectly. The series brings fresh energy and perspective to the superhero genre.",
+      "rating": 4.7,
+      "publishedAt": "2024-02-01"
+    },
+    {
+      "title": "Persepolis",
+      "summary": "Marjane Satrapi's autobiographical account of growing up during the Islamic Revolution in Iran.",
+      "review": "Satrapi's stark black-and-white artwork perfectly complements this powerful coming-of-age story set against historical upheaval. The personal narrative makes complex political events accessible while never oversimplifying them. Her humor and honesty in depicting her younger self adds warmth to even the darkest moments. A masterful example of how comics can bridge cultural divides.",
+      "rating": 4.9,
+      "publishedAt": "2024-02-03"
+    },
+    {
+      "title": "Paper Girls, Volume 1",
+      "summary": "Four paper delivery girls become caught in a mysterious conflict involving time travel and supernatural forces.",
+      "review": "Brian K. Vaughan and Cliff Chiang create a compelling mystery that combines 80s nostalgia with sci-fi elements. The young protagonists feel authentic, and their friendship forms the heart of the story. Chiang's artwork and Matt Wilson's colors create a distinct visual style that balances the ordinary and extraordinary. While the plot can be complex, the character dynamics keep readers invested.",
+      "rating": 4.4,
+      "publishedAt": "2024-02-05"
+    },
+    {
+      "title": "Black Hole",
+      "summary": "In 1970s Seattle, teenagers are affected by a mysterious sexually transmitted disease that causes physical mutations.",
+      "review": "Charles Burns' horror masterpiece uses body horror to explore teenage alienation and sexuality. The stark black-and-white artwork creates an oppressive atmosphere that perfectly matches the story's themes. While the pace can be slow, the psychological depth and visual symbolism reward careful reading. A unique and unsettling work that demonstrates the power of the medium.",
+      "rating": 4.6,
+      "publishedAt": "2024-02-08"
+    }
+  ]
+}
